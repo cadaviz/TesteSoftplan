@@ -15,6 +15,9 @@ namespace Softplan.MiguelCadaviz.WebApi.Domain
         
         public static decimal Truncar(decimal valor, int casasDecimais)
         {
+            if (casasDecimais > 10)
+                throw new ArgumentException("O valor máximo de casas decimais suportado é 10.");
+
             long multiplicador = (long)Math.Pow(10, casasDecimais);
 
             return Math.Truncate(valor * multiplicador ) / multiplicador;
