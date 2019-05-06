@@ -13,11 +13,10 @@ namespace Softplan.MiguelCadaviz.WebApi.Controllers
             return Calculos.Truncar(Calculos.CalcularJurosCompostos(valorInicial, meses), 2);
         }
         
-
         [HttpGet("showmethecode")]
         public string ShowMeTheCode()
         {
-            return @"";
+            return @"https://github.com/cadaviz/TesteSoftplan";
         }
     }
 }

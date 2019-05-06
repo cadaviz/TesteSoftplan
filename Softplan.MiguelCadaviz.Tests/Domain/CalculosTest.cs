@@ -4,7 +4,6 @@ using System;
 
 namespace Softplan.MiguelCadaviz.Tests.Domain
 {
-
     [TestClass]
     public class CalculosTest
     {
