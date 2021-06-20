@@ -12,7 +12,7 @@ Retorna o resultado com os valores truncados em duas casas decimais.
 Exemplo:
 A chamada ```api/softplan/calculajuros?valorInicial=1000&meses=2``` irá retornar 1020.10.
 
-###Showmethecode
+### Showmethecode
 Acessada através de ```api/softplan/showmethecode```.
 Exibe a url do repositório git do projeto.
 
